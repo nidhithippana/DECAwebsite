@@ -27,3 +27,7 @@ td img{
 tr{
 width: 100vw;
 }
+p{
+	font-size:30px;
+	font-weight:bold;
+}
