@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-image: url('winners.jpg');
+	background-image: url('pics/winners.jpg');
 	background-size:cover;
 	background-position:center;
 	
@@ -38,4 +38,11 @@ body{
 .icon
 {
 	width: 100px;
+	margin-left: 35%;
+	
+}
+
+.123 {
+	background-color: black;
+	color: white
 }
