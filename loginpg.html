@@ -5,7 +5,7 @@
 </head>
 
 <body>
-<div class="topnav">
+<div id="topnav" style="display: none">
       <a class="active" href="DECAMAIN.html">Home</a>
       <a href="pictures.html">What is DECA</a>
       <a href="#about">Events</a>
@@ -21,19 +21,20 @@
 							<label>Email address</label>
 					    	<input type="email" id="logemail_inp" required>
 <br>
-							<label>Password*</label>
+							<label>Password</label>
 							 <input type="password" id="logpassword_inp" required>
-					  	<button type="submit" class="submit-button">Sign In</button>
+					  	<button type="submit" id="submit-button" onclick="login()">Sign In</button>
 					</form></div>
   
 </body>
-<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-analytics.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-storage.js"></script>
 
 <script>
-  var firebaseConfig = {
+ var firebaseConfig = {
     apiKey: "AIzaSyBG34CtLr0hHjpGTNFaTb31aGEN-_uffQo",
     authDomain: "lolz-37fe4.firebaseapp.com",
     databaseURL: "https://lolz-37fe4.firebaseio.com",
