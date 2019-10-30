@@ -1,53 +1,47 @@
 <html>
-<head>
-<link href="login.css" rel="stylesheet" type="text/css">
-<title> Login page  </title>
-</head>
-
-<body>
-<div id="topnav" style="display: none">
-      <a class="active" href="DECAMAIN.html">Home</a>
-      <a href="pictures.html">What is DECA</a>
-      <a href="#about">Events</a>
-      <a href="contactpg.html">Competition</a>
-      <a href="loginpg.html">Login</a>
-  	<div class="logo">
-  		<img src="pics/LT.png" style="width:6%; margin:10px" align="right">
-	</div>
-	</div>
-<div class="123">
-    <img src="pics/reallogo.png" class="icon">
-<form id="log_in">
-							<label>Email address</label>
-					    	<input type="email" id="logemail_inp" required>
-<br>
-							<label>Password</label>
-							 <input type="password" id="logpassword_inp" required>
-					  	<button type="submit" id="submit-button" onclick="login()">Sign In</button>
-					</form></div>
-  
-</body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-firestore.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-storage.js"></script>
-
-<script>
- var firebaseConfig = {
-    apiKey: "AIzaSyBG34CtLr0hHjpGTNFaTb31aGEN-_uffQo",
-    authDomain: "lolz-37fe4.firebaseapp.com",
-    databaseURL: "https://lolz-37fe4.firebaseio.com",
-    projectId: "lolz-37fe4",
-    storageBucket: "lolz-37fe4.appspot.com",
-    messagingSenderId: "507327708227",
-    appId: "1:507327708227:web:b044a44923cc65032628f6"
-  };
-  firebase.initializeApp(firebaseConfig);
-</script>
-
-<script src="index.js"></script>
-
-
-
+    <head>
+        <link href="login.css" rel="stylesheet" type="text/css">
+        <title> Login page  </title>
+    </head>
+    <body>
+        <div id="topnav" style="display: none">
+          <a class="active" href="DECAMAIN.html">Home</a>
+          <a href="pictures.html">What is DECA</a>
+          <a href="#about">Events</a>
+          <a href="contactpg.html">Competition</a>
+          <a href="#" onclick="signOut()">Log Out</a>
+        <div class="logo">
+            <img src="pics/LT.png" style="width:6%; margin:10px" align="right">
+        </div>
+        </div>
+        <div class="123">
+            <img src="pics/reallogo.png" class="icon">
+            <form id="log_in">
+                <label>Email address</label>
+                <input type="email" id="logemail_inp" required>
+                <br>
+                <label>Password</label>
+                <input type="password" id="logpassword_inp" required>
+                <button type="submit">Sign In</button>
+            </form>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-storage.js"></script>
+    <script>
+     var firebaseConfig = {
+        apiKey: "AIzaSyBG34CtLr0hHjpGTNFaTb31aGEN-_uffQo",
+        authDomain: "lolz-37fe4.firebaseapp.com",
+        databaseURL: "https://lolz-37fe4.firebaseio.com",
+        projectId: "lolz-37fe4",
+        storageBucket: "lolz-37fe4.appspot.com",
+        messagingSenderId: "507327708227",
+        appId: "1:507327708227:web:b044a44923cc65032628f6"
+      };
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="index.js"></script>
 </html>
