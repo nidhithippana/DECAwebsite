@@ -8,7 +8,7 @@
       <a href="pictures.html">What is DECA</a>
       <a href="#about">Events</a>
       <a href="contactpg.html">Competition</a>
-      <a href="loginpg.html">Login</a>
+      <a href="#" onclick="signOut()">Logout</a>
   	<div class="logo">
   		<img src="pics/LT.png" style="width:6%; margin:10px" align="right">
 	</div>
@@ -27,23 +27,24 @@
 <TD><img src="pics/pic7.png" ></TD>
 </table>
 </body>
-<script>
-var firebaseConfig = {
-    apiKey: "AIzaSyBG34CtLr0hHjpGTNFaTb31aGEN-_uffQo",
-    authDomain: "lolz-37fe4.firebaseapp.com",
-    databaseURL: "https://lolz-37fe4.firebaseio.com",
-    projectId: "lolz-37fe4",
-    storageBucket: "lolz-37fe4.appspot.com",
-    messagingSenderId: "507327708227",
-    appId: "1:507327708227:web:b044a44923cc65032628f6"
-  };
-  firebase.initializeApp(firebaseConfig);
-</script>
-<script src="index.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-analytics.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-storage.js"></script>
+    <script>
+     var firebaseConfig = {
+        apiKey: "AIzaSyBG34CtLr0hHjpGTNFaTb31aGEN-_uffQo",
+        authDomain: "lolz-37fe4.firebaseapp.com",
+        databaseURL: "https://lolz-37fe4.firebaseio.com",
+        projectId: "lolz-37fe4",
+        storageBucket: "lolz-37fe4.appspot.com",
+        messagingSenderId: "507327708227",
+        appId: "1:507327708227:web:b044a44923cc65032628f6"
+      };
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="index.js"></script>
 
 
 </html>
