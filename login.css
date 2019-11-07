@@ -37,23 +37,44 @@ body{
 }
 .icon
 {
-	width: 100px;
+	width: 110px;
 	margin-left: 35%;
-	
+	margin-top: 10px;
+	position:absolute;
+}
+
+.logo{
+width: 70px;
+position: relative;
+margin-left: 42%;
+	margin-top: 46px
 }
 
 .123 {
-	align: center;
 	background-color: black;
 	color: white
 }
 button{
-	background-color: grey;
-	
-	color: white;
+  margin-left: 60px;
+  border: none;
+  color: black;
+  padding: 10px 75px;
+  text-align: center;
+  font-size: 16px;
 }
 
-.log{
-
-	background-color: rgba(0,0,0,.2);
+.loginBox input[type="email"],
+.loginBox input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 60px;
+}
+.sign{
+	color:#0072ce;
+	margin-left: 30px;
 }
