@@ -17,7 +17,7 @@ body{
   padding: 30px 16px;
   text-decoration: none;
   font-size: 17px; 
-   
+  margin-bottom: 0px;
 }
 
 td img{
@@ -27,4 +27,31 @@ td img{
 p{
 	font-size:30px;
 	font-weight:bold;
+}
+
+#table1{
+	margin-top: 0px;
+}
+
+.picsmain {
+	width: 50%;
+}
+video#bgvideo {
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-ms-transform: translateX(-50%) translateY(-50%);
+-moz-transform: translateX(-50%) translateY(-50%);
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url(placeholder.jpg) no-repeat;
+background-size: cover;
+}
+#e{
+	font-size:25px;
 }
